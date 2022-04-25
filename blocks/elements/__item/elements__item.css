@@ -1,0 +1,13 @@
+.Elements__item {
+  max-width: 282px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 525px) {
+  .Elements__item {
+    max-width: 282px;
+  }  
+}

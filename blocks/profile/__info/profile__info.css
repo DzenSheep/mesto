@@ -1,0 +1,16 @@
+.profile__info {
+  padding-left: 30px;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-template-rows: repeat(2,auto);
+  grid-template-areas: "top-left top-right"
+                       "bottom bottom";
+  gap: 16px 18px;
+}
+
+@media screen and (max-width: 525px) {
+  .profile__info{
+    gap: 0;
+    padding: 0;
+  }  
+}

@@ -1,0 +1,34 @@
+.popup__close {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: absolute;
+    right: -40px;
+    top: -40px;
+    background: none;
+    background-image: url(../../../images/profile__close.png);
+    background-size: contain;
+  }
+
+  @media screen and (max-width: 565px) {
+    .popup__close {
+      width: 25px;
+      height: 25px;
+      top: -36px;
+      right: 0;
+    }
+  }
+
+  @media screen and (max-width: 525px) {
+    .popup__close {
+      width: 20px;
+      height: 20px;
+    }
+  }  
+
+  .popup__close:hover {
+    opacity: .5;
+    cursor: pointer;
+  }
