@@ -8,7 +8,7 @@
     right: -40px;
     top: -40px;
     background: none;
-    background-image: url(../../../images/profile__close.png);
+    background-image: url(../../../images/profile__close.svg);
     background-size: contain;
   }
 
@@ -29,6 +29,6 @@
   }  
 
   .popup__close:hover {
-    opacity: .5;
+    opacity: .6;
     cursor: pointer;
   }

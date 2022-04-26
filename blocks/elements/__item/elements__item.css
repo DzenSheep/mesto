@@ -1,4 +1,4 @@
-.Elements__item {
+.elements__item {
   max-width: 282px;
   border-radius: 5px;
   overflow: hidden;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 525px) {
-  .Elements__item {
+  .elements__item {
     max-width: 282px;
   }  
 }
